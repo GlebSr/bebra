@@ -1,0 +1,17 @@
+database:
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+  db_name: ${DB_NAME}
+
+server:
+  port: ${SERVER_PORT}
+
+jwt:
+  secret_key: ${JWT_SECRET_KEY}
+  token_ttl: ${JWT_TOKEN_TTL}
+
+refresh:
+  secret_key: ${REFRESH_SECRET_KEY}
+  token_ttl: ${REFRESH_TOKEN_TTL}
